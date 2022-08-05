@@ -1,0 +1,50 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #3e3f42;
+  --ifm-color-primary-dark: #38393b;
+  --ifm-color-primary-darker: #353638;
+  --ifm-color-primary-darkest: #2b2c2e;
+  --ifm-color-primary-light: #444549;
+  --ifm-color-primary-lighter: #47484c;
+  --ifm-color-primary-lightest: #515256;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #c6e3ec;
+  --ifm-color-primary-dark: #a5d3e1;
+  --ifm-color-primary-darker: #95cbdc;
+  --ifm-color-primary-darkest: #64b3cb;
+  --ifm-color-primary-light: #e7f3f7;
+  --ifm-color-primary-lighter: #f7fbfc;
+  --ifm-color-primary-lightest: #ffffff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.markdown > h1{
+  color: var(--ifm-color-primary);
+}
+
+.markdown > h2{
+  color: var(--ifm-color-primary);
+}
+
+.markdown > h3{
+  color: var(--ifm-color-primary);
+}
+
+.pagination-nav__link{
+  transition: all 1s ease-in-out;
+}
+
+.pagination-nav__link:hover{
+  background-color: var(--ifm-color-primary);
+}
